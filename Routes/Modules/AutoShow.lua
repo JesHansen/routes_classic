@@ -75,10 +75,6 @@ function AutoShow:SKILL_LINES_CHANGED()
 		end
 	end
 	
-	for k, v in pairs(have_prof) do
-		print(have_prof[k])
-	end
-	
 	self:ApplyVisibility()
 end
 
